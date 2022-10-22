@@ -1,0 +1,118 @@
+ -- Creacion de la base de datos para insertar las tablas, descomentar linea 2
+ -- CREATE DATABASE  Punto_De_Venta
+
+ USE Punto_De_Venta ;  /* Hago referencia a  la base en la cual se crearan las tablas */
+ 
+ -- Tablas
+-- Tabla: CLIENTES
+CREATE TABLE CLIENTES (
+	ID_Cliente int  NOT NULL AUTO_INCREMENT,
+    Nombre varchar (100) NOT NULL,
+    Apellido varchar (100) NOT NULL,
+    Dirección varchar (200),
+    RFC varchar (15),
+    Fecha_creacion date ,
+    ID_Tipocuenta int NOT NULL,
+    CONSTRAINT PK_CLIENTES PRIMARY KEY (ID_Cliente)
+);
+
+ USE Punto_De_Venta ; 
+-- Tabla: SUCURSALES
+CREATE TABLE SUCURSALES (
+	ID_Cliente int  NOT NULL ,
+    ID_Sucursal int  NOT NULL AUTO_INCREMENT,
+	Nombre varchar (100) NOT NULL,
+    Apellido varchar (100) NOT NULL,
+    Dirección_entrega varchar (200),
+    Fecha_creacion date ,
+    ID_Tipocuenta int NOT NULL,
+    CONSTRAINT PK_SUCURSALES PRIMARY KEY ( ID_Sucursal)
+);
+
+-- Tabla: Tipo_Cuenta
+CREATE TABLE Tipo_Cuenta (
+	ID_Tipocuenta int NOT NULL,
+    Descripcion varchar(50) NOT NULL,
+    CONSTRAINT PK_Tipo_Cuenta PRIMARY KEY (ID_Tipocuenta)
+);
+
+-- Tabla: Empleados
+CREATE TABLE Empleados (
+	ID_Empleado int  NOT NULL,
+    Nombre varchar(50) NOT NULL,
+    ID_Puesto int NOT NULL,
+    Fecha_ingreso  date,
+    CONSTRAINT PK_Empleados PRIMARY KEY (ID_Empleado)
+);
+
+
+-- Tabla: Puesto
+CREATE TABLE Puesto (
+	ID_Puesto int NOT NULL,
+    Descripcion varchar(50) NOT NULL,
+    CONSTRAINT PK_Puesto PRIMARY KEY (ID_Puesto)
+);
+
+
+-- Tabla: Articulos
+CREATE TABLE Articulos (
+	ID_Articulo int  NOT NULL,
+    Descripcion varchar(50) NOT NULL,
+    ID_Proveedor int NOT NULL,
+    ID_Tipo_Producto  int NOT NULL,
+    CONSTRAINT PK_Articulos PRIMARY KEY (ID_Articulo)
+);
+
+-- Tabla: Tipo_Producto
+CREATE TABLE Tipo_Producto (
+	ID_Tipo_Producto int NOT NULL,
+    Descripcion varchar(50) NOT NULL,
+    CONSTRAINT PK_Tipo_Producto PRIMARY KEY (ID_Tipo_Producto)
+);
+
+
+
+-- Tabla: Proveedores
+CREATE TABLE Proveedores (
+	ID_Proveedor int  NOT NULL,
+    Reazon_Social varchar(50) NOT NULL,
+    Direccion varchar(50) ,
+    RFC  varchar (50)  NOT NULL,
+    CONSTRAINT PK_Proveedores PRIMARY KEY (ID_Proveedor)
+);
+
+-- Tabla: Depósitos
+CREATE TABLE Depositos (
+	ID_Deposito int NOT NULL,
+    Descripcion varchar(50) NOT NULL,
+    CONSTRAINT PK_Depositos PRIMARY KEY (ID_Deposito)
+);
+
+
+-- Tabla: Compras
+CREATE TABLE Compras (
+	ID_Compra int  NOT NULL AUTO_INCREMENT,
+	ID_Proveedor int  NOT NULL,
+	ID_Empleado int  NOT NULL,
+	ID_Deposito int  NOT NULL,
+	ID_Articulos int  NOT NULL,
+	Precio numeric (10,4) NOT NULL,
+	Cantidad int NOT NULL,
+	Fecha_Compra date NOT NULL,
+
+    CONSTRAINT PK_Compras PRIMARY KEY (ID_Compra)
+);
+
+-- Tabla: Ventas
+CREATE TABLE Ventas (
+	ID_Venta int  NOT NULL AUTO_INCREMENT,
+	ID_Cliente int  NOT NULL,
+	ID_Empleado int  NOT NULL,
+	ID_Deposito int  NOT NULL,
+	ID_Articulos int  NOT NULL,
+	Precio numeric (10,4) NOT NULL,
+	Cantidad int NOT NULL,
+	Fecha_Venta date NOT NULL,
+
+    CONSTRAINT PK_Ventas PRIMARY KEY (ID_Venta)
+);
