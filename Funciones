@@ -1,0 +1,8 @@
+DELIMITER $$
+CREATE FUNCTION calcularBeneficio(coste FLOAT, precio FLOAT) RETURNS DECIMAL(9,2)
+BEGIN
+    DECLARE beneficio DECIMAL(9,2);
+    SET beneficio = precio - coste;
+    RETURN beneficio;
+END$$
+DELIMITER
