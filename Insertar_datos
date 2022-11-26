@@ -67,41 +67,41 @@ Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Produc
 Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (84684,'TOPO CHICO 355ML VR 24PK - (84684)',1,1),
 
 
-Insert Into CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1000046,'MATILDE ','GASCA MACIAS','PASEO DE LAVJUVENTUD 706 ','GAMM410724UD2','09-05-2022',1),
-Insert Into CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1000098,'JORGE ','NOVOA ROSAS','MIGUEL HIDALGO 117 CENTRO, CORTAZAR, GUANAJUATO','NORJ511219JM9','10-05-2022',2),
-Insert Into CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1000105,'BASILIO ','CANO VEGA','VICENTE GUERRERO 501-A CENTRO, CORTAZAR','CAVB5412196W9','10-05-2022',1),
-Insert Into CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1000171,'SALVADOR','CANO VEGA','BLVD. LUIS DONALDO COLOSIO 129 .','LOSS701210JI2','10-05-2022',2),
-Insert Into CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1000203,'MARTHA',' ALEJOS VAZQUEZ','FELIPE ANGELES','AEVM650223SN2','10-05-2022',1),
-Insert Into CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1000262,'CRISTOBAL ','MORENO VAZQUEZ','MARGARITA 42 EL CHINACO, EL CHINACO','MOVC540106141','10-05-2022',2),
-Insert Into CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1000341,'CAJA POPULAR CORTAZAR SC DE AP DE RL DE CV','SIN APELLIDO','IGNACIO RAMIREZ 106 CENTRO, CORTAZAR, GUANAJUATO','CPC860821CC3','10-05-2022',1),
-Insert Into CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1000355,'MA EUGENIA ','CASTRO','AV. ENRIQUE COLUNGA','MBR640430UC9','10-05-2022',2),
-Insert Into CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1000425,'MAURICIO ','FERREL GONZALEZ','CALLE ZARAGOZA #402 A','FEGM700811US4','10-05-2022',1),
-Insert Into CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1000468,'AURORA ','SIERRA LEON','CALLE DOMINGO ARRIETA SN . S/N','SILA560628CH1','10-05-2022',2),
-Insert Into CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1000691,'REYES ','VENEGAS MERCADO','BENITO JUAREZ OTE. 212','VEMR010414BE1','10-05-2022',1),
-Insert Into CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1000841,'ROSA MA. ','BUENO GARCIA','CIRCUITO FLORENCIA 236-A','BUGR630104PH5','10-05-2022',2),
-Insert Into CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1000844,'LUCRECIA ','CRUZ BAUTISTA','GILDARDO MAGAÑA 42 EMILIANO ZAPATA, VILLAGRAN, GTO','CUBL650916N14','10-05-2022',1),
-Insert Into CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1000881,'OFELIA ','BANDA ROJAS','VERACRUZ 501, CENTRO CORTAZAR','BARO680102616','10-05-2022',2),
-Insert Into CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1001039,'DAVID ','GONZALEZ MACIAS','VILLA MONZA 125','GOMD5804059K0','10-05-2022',1),
-Insert Into CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1001045,'SERGIO ','GALLEGOS PARRAS','CORREGIDORA 1001-A','GAPS631120PC4','10-05-2022',2),
-Insert Into CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1001066,'MARISCOS 3 DELFINES','SIN APELLIDO','MATAMOROS 327','PEML751123HU1','10-05-2022',1),
-Insert Into CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1001118,'TACOSTUMBRAS','SIN APELLIDO','RAYON 706','AUAR681120EP6','10-05-2022',2),
-Insert Into CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1001199,'ELVIA ','GASCA BARAJAS','JOSE MARIA MORELOS PTE 617 CENTRO, VILLAGRAN','GABE630426RJ0','10-05-2022',2),
-Insert Into CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1001202,'DR HECTOR A ','ROBLEDO RUIZ','ALDAMA 305','GAAM600223223','10-05-2022',2),
-Insert Into CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1001214,'VICTOR MANUEL','PALACIOS ZAMUDIO','SENDERO DEL TIGRE 100','PAZV670728UP5','10-05-2022',1),
-Insert Into CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1001476,'RESTAURANT TORTA ZAR','SIN APELLIDO','AVENIDA PORTAL CONSTITUCIÓN 118','PIRR7310264EA','10-05-2022',2),
-Insert Into CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1001552,'DISTRIBUIDORA VILLAGRAN EFC','SIN APELLIDO','CALLE CUAUHTEMOC 407','GOMF7202053C1','10-05-2022',1),
-Insert Into CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1001553,'MARIA TERESA',' GONZALEZ VAZQUEZ','ANDADOR PRIV GUADALUPE 1006','GOVT900125QW6','10-05-2022',2),
-Insert Into CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1001758,'MINI SUPER LA HACIENDA','SIN APELLIDO','CALLE MIGUEL HIDALGO 55','MOCR760926CH9','10-05-2022',1),
-Insert Into CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1001836,'ELIZABETH','OLIVARES MARTINEZ','CALLE HERMOSA 67','OIME810314ED1','10-05-2022',2),
-Insert Into CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1002270,'ABARROTES EL VALHALLA','SIN APELLIDO','EMILIANO ZAPATA','CALM000731BF7','10-05-2022',1),
-Insert Into CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1002313,'JULIO CESAR ','LERMA ROJAS','C. PIPILA # 509','LERJ910722AS1','10-05-2022',2),
-Insert Into CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1002315,'J GUADALUPE ','MELGAR NITO','C OLMO 405','MENJ631206927','10-05-2022',1),
-Insert Into CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1002332,'MA ESTELA','GONZALEZ ARANDA','CARRETERA CORTAZAR LA ESTACIÓN KM 1.5','DCA930316BY9','10-05-2022',2),
-Insert Into CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1002358,'COMEDOR FERROMEX','SIN APELLIDO','CARRETERA LATERAL CELAYA VILLAGRAN KM 12.5','HEFB840819559','10-05-2022',1),
-Insert Into CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1002359,'COMEDOR FERROMEX','SIN APELLIDO','CARRETERA LATERAL CELAYA VILLAGRAN KM 12','RARR8906052V0','10-05-2022',2),
-Insert Into CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1002379,'PERLA IVONNE ','ARRIAGA VILLANUEVA','ZARAGOZA #118','AIVP910324IK3','10-05-2022',1),
-Insert Into CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1002396,'LOS HIJOS DE LAS PEPAS','SIN APELLIDO','HIDALGO # 100','HPE101021L73','10-05-2022',2),
-Insert Into CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1002438,'DISTRIBUIDORA VILLAGRAN TRNS','SIN APELLIDO','CALLE CUAUHTEMOC #407','AAMJ8912089F1','10-05-2022',2),
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1000046,'MATILDE ','GASCA MACIAS','PASEO DE LAVJUVENTUD 706 ','XAXX010101000',2022-05-10,1);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1000098,'JORGE ','NOVOA ROSAS','MIGUEL HIDALGO 117 CENTRO, CORTAZAR, GUANAJUATO','XAXX010101000',2022-05-11,2);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1000105,'BASILIO ','CANO VEGA','VICENTE GUERRERO 501-A CENTRO, CORTAZAR','XAXX010101000',2022-05-12,1);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1000171,'SALVADOR','CANO VEGA','BLVD. LUIS DONALDO COLOSIO 129 .','XAXX010101000',2022-05-13,2);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1000203,'MARTHA',' ALEJOS VAZQUEZ','FELIPE ANGELES','XAXX010101000',2022-05-14,1);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1000262,'CRISTOBAL ','MORENO VAZQUEZ','MARGARITA 42 EL CHINACO, EL CHINACO','XAXX010101000',2022-05-15,2);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1000341,'CAJA POPULAR CORTAZAR SC DE AP DE RL DE CV','SIN APELLIDO','IGNACIO RAMIREZ 106 CENTRO, CORTAZAR, GUANAJUATO','XAXX010101000',2022-05-16,1);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1000355,'MA EUGENIA ','CASTRO','AV. ENRIQUE COLUNGA','XAXX010101000',2022-05-17,2);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1000425,'MAURICIO ','FERREL GONZALEZ','CALLE ZARAGOZA #402 A','XAXX010101000',2022-05-18,1);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1000468,'AURORA ','SIERRA LEON','CALLE DOMINGO ARRIETA SN . S/N','XAXX010101000',2022-05-19,2);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1000691,'REYES ','VENEGAS MERCADO','BENITO JUAREZ OTE. 212','XAXX010101000',2022-05-20,1);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1000841,'ROSA MA. ','BUENO GARCIA','CIRCUITO FLORENCIA 236-A','XAXX010101000',2022-05-21,2);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1000844,'LUCRECIA ','CRUZ BAUTISTA','GILDARDO MAGAÑA 42 EMILIANO ZAPATA, VILLAGRAN, GTO','XAXX010101000',2022-05-22,1);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1000881,'OFELIA ','BANDA ROJAS','VERACRUZ 501, CENTRO CORTAZAR','XAXX010101000',2022-05-23,2);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1001039,'DAVID ','GONZALEZ MACIAS','VILLA MONZA 125','XAXX010101000',2022-05-24,1);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1001045,'SERGIO ','GALLEGOS PARRAS','CORREGIDORA 1001-A','XAXX010101000',2022-05-25,2);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1001066,'MARISCOS 3 DELFINES','SIN APELLIDO','MATAMOROS 327','XAXX010101000',2022-05-26,1);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1001118,'TACOSTUMBRAS','SIN APELLIDO','RAYON 706','XAXX010101000',2022-05-27,2);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1001199,'ELVIA ','GASCA BARAJAS','JOSE MARIA MORELOS PTE 617 CENTRO, VILLAGRAN','XAXX010101000',2022-05-28,2);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1001202,'DR HECTOR A ','ROBLEDO RUIZ','ALDAMA 305','XAXX010101000',2022-05-29,2);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1001214,'VICTOR MANUEL','PALACIOS ZAMUDIO','SENDERO DEL TIGRE 100','XAXX010101000',2022-05-30,1);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1001476,'RESTAURANT TORTA ZAR','SIN APELLIDO','AVENIDA PORTAL CONSTITUCIÓN 118','XAXX010101000',2022-05-31,2);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1001552,'DISTRIBUIDORA VILLAGRAN EFC','SIN APELLIDO','CALLE CUAUHTEMOC 407','XAXX010101000',2022-06-01,1);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1001553,'MARIA TERESA',' GONZALEZ VAZQUEZ','ANDADOR PRIV GUADALUPE 1006','XAXX010101000',2022-06-02,2);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1001758,'MINI SUPER LA HACIENDA','SIN APELLIDO','CALLE MIGUEL HIDALGO 55','XAXX010101000',2022-06-03,1);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1001836,'ELIZABETH','OLIVARES MARTINEZ','CALLE HERMOSA 67','XAXX010101000',2022-06-04,2);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1002270,'ABARROTES EL VALHALLA','SIN APELLIDO','EMILIANO ZAPATA','XAXX010101000',2022-06-05,1);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1002313,'JULIO CESAR ','LERMA ROJAS','C. PIPILA # 509','XAXX010101000',2022-06-06,2);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1002315,'J GUADALUPE ','MELGAR NITO','C OLMO 405','XAXX010101000',2022-06-07,1);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1002332,'MA ESTELA','GONZALEZ ARANDA','CARRETERA CORTAZAR LA ESTACIÓN KM 1.5','XAXX010101000',2022-06-08,2);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1002358,'COMEDOR FERROMEX','SIN APELLIDO','CARRETERA LATERAL CELAYA VILLAGRAN KM 12.5','XAXX010101000',2022-06-09,1);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1002359,'COMEDOR FERROMEX','SIN APELLIDO','CARRETERA LATERAL CELAYA VILLAGRAN KM 12','XAXX010101000',2022-06-10,2);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1002379,'PERLA IVONNE ','ARRIAGA VILLANUEVA','ZARAGOZA #118','XAXX010101000',2022-06-11,1);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1002396,'LOS HIJOS DE LAS PEPAS','SIN APELLIDO','HIDALGO # 100','XAXX010101000',2022-06-12,2);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1002438,'DISTRIBUIDORA VILLAGRAN TRNS','SIN APELLIDO','CALLE CUAUHTEMOC #407','XAXX010101000',2022-06-13,2);
 
 
 Insert Into Tipo_Cuenta ( ID_Tipocuenta, Descripcion ) VALUES (1,'MENUDEO'),
@@ -109,8 +109,8 @@ Insert Into Tipo_Cuenta ( ID_Tipocuenta, Descripcion ) VALUES (2,'MAYOREO'),
 
 
 
-Insert Into Proveedores (ID_Proveedor  , Reazon_Social , Direccion, RFC) Values (1,'FEMSA','MIGUEL HIDALGO 117 CENTRO, CORTAZAR, GUANAJUATO','CPC860821CC3'),
-Insert Into Proveedores (ID_Proveedor  , Reazon_Social , Direccion, RFC) Values (2,'PEPSICO','VICENTE GUERRERO 501-A CENTRO, CORTAZAR','BARO680102616'),
+Insert Into Proveedores (ID_Proveedor  , Reazon_Social , Direccion, RFC) Values (1,'FEMSA','MIGUEL HIDALGO 117 CENTRO, CORTAZAR, GUANAJUATO','XAXX010101000'),
+Insert Into Proveedores (ID_Proveedor  , Reazon_Social , Direccion, RFC) Values (2,'PEPSICO','VICENTE GUERRERO 501-A CENTRO, CORTAZAR','XAXX010101000'),
 
 
 Insert Into Depositos ( ID_Deposito , Descripcion ) values (97,'Merma'),
