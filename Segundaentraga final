@@ -1,1 +1,11 @@
+CREATE VIEW 
+Productos_csds AS 
 
+SELECT 
+	ar.ID_Articulo
+	,ar.Descripcion 
+    ,CONCAT(ar.id_tipo_producto ,'-', tp.descripcion) AS TIPO 
+    
+FROM articulos ar
+INNER JOIN tipo_producto tp on  tp.id_tipo_producto=ar.id_tipo_producto
+WHERE tp.id_tipo_producto=4;
