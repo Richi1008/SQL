@@ -1,1 +1,32 @@
+START TRANSACTION;
 
+-- Se actualiza el stock
+
+UPDATE Productos SET Stock=Stock - 2 WHERE Id_Producto='100030';
+
+-- Se inserta el pedido 
+
+INSERT INTO Pedidos VALUES (25, '28-11-2022', 1000046, 'MATILDE GASCA MACIAS', 'PENDIENTE DE ENTREGA', '100030');
+
+--  Se coonfirma la tansaccion con el commit 
+COMMIT;
+
+
+/* Nuevo proceso con BEGIN y ROLLBACK */
+
+BEGIN;
+
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1000046,'MATILDE ','GASCA MACIAS','PASEO DE LAVJUVENTUD 706 ','XAXX010101000',2022-05-10,1);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1000098,'JORGE ','NOVOA ROSAS','MIGUEL HIDALGO 117 CENTRO, CORTAZAR, GUANAJUATO','XAXX010101000',2022-05-11,2);
+
+ROLLBACK;
+
+
+-- se modifica la primera linea
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1000841,'ROSA MA. ','BUENO GARCIA','CIRCUITO FLORENCIA 236-A','XAXX010101000',2022-05-21,2);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1000098,'JORGE ','NOVOA ROSAS','MIGUEL HIDALGO 117 CENTRO, CORTAZAR, GUANAJUATO','XAXX010101000',2022-05-11,2);
+
+-- Se almacena una vez realizado el COMMIT
+COMMIT;
+
+/* Se Finaliza el proceso*/
