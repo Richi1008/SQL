@@ -1,8 +1,15 @@
+ USE `punto_de_venta`;
+ DROP function IF EXISTS `Calcular_Iva`;
+
 DELIMITER $$
-CREATE FUNCTION calcularBeneficio(coste FLOAT, precio FLOAT) RETURNS DECIMAL(9,2)
+USE `punto_de_venta`$$
+CREATE FUNCTION Calcular_Iva(Precio FLOAT) RETURNS DECIMAL(9,2)
+
 BEGIN
-    DECLARE beneficio DECIMAL(9,2);
-    SET beneficio = precio - coste;
-    RETURN beneficio;
+    DECLARE YaconIva DECIMAL(9,2);
+    SET YaconIva = precio * 1.16;
+    RETURN YaconIva;
+
 END$$
-DELIMITER
+
+DELIMITER ;
