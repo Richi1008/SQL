@@ -1,0 +1,37 @@
+delimiter $$
+CREATE PROCEDURE Realizar_compra (in v_Proveedor int, in v_Empleado int, in v_Deposito int, in v_Articulos varchar(30), in v_Precio numeric(12,4), in v_Cantidad int, in v_Fecha date)
+begin
+Declare  proveedor_existe, Articulo_existe, Deposito_Existe, Empleado_existe int;
+ -- Seteo en cero por si nos existe algunos de los argumentos a buscar 
+SET proveedor_existe = 0;
+SET Articulo_existe = 0;
+SET Deposito_Existe = 0;
+SET Empleado_existe = 0;
+
+-- Cambio el valor si es que existen 
+
+SET proveedor_existe = (SELECT EXISTS(SELECT 1 FROM punto_de_venta.proveedores WHERE ID_Proveedor = v_Proveedor ));
+SET Articulo_existe = (SELECT EXISTS(SELECT 1 FROM punto_de_venta.articulos WHERE ID_Articulo = v_Articulos ));
+SET Deposito_Existe = (SELECT EXISTS(SELECT 1 FROM punto_de_venta.depositos WHERE ID_Deposito = v_Deposito ));
+SET Empleado_existe = (SELECT EXISTS(SELECT 1 FROM punto_de_venta.empleados WHERE ID_Empleado = v_Empleado ));
+
+IF  proveedor_existe  = 1 and Articulo_existe = 1  and Deposito_Existe = 1  and  Empleado_existe = 1  THEN
+	Insert into  punto_de_venta.compras (ID_Proveedor, ID_Empleado, ID_Deposito, ID_Articulos, Precio, Cantidad, Fecha_Compra)  
+	values (v_Proveedor , v_Empleado, v_Deposito, v_Articulos, v_Precio, v_Cantidad, v_Fecha);
+
+ END IF;
+ 
+ 
+ IF proveedor_existe  = 1 AND  Articulo_existe = 1 AND Deposito_Existe = 1 AND Empleado_existe = 1  THEN 
+ 
+		UPDATE  punto_de_venta.stock_almacen
+		SET STOCK = STOCK + v_Cantidad
+		WHERE ID_Articulo=v_Articulos AND   ID_Deposito=v_Deposito;
+ 
+ ELSE 
+ 
+		Insert into  punto_de_venta.stock_almacen  (ID_Articulo,  ID_Deposito, Stock, Fecha_Movimiento) 
+		values ( v_Articulos, v_Deposito, v_Cantidad, v_Fecha);
+ END IF;
+ 
+ end $$
