@@ -10,6 +10,6 @@ BEGIN
     SET YaconIva = precio * 1.16;
     RETURN YaconIva;
 
-END$$
+END $$
 
 DELIMITER ;
