@@ -1,176 +1,167 @@
- USE Punto_De_Venta ;
+
+Insert Into punto_de_venta.Tipo_Producto ( ID_Tipo_Producto, Descripcion ) Values (1,'AGUA');
+Insert Into punto_de_venta.Tipo_Producto ( ID_Tipo_Producto, Descripcion ) Values (2,'ALCOHOLIC RTD');
+Insert Into punto_de_venta.Tipo_Producto ( ID_Tipo_Producto, Descripcion ) Values (3,'BEBIDAS VEGETALES');
+Insert Into punto_de_venta.Tipo_Producto ( ID_Tipo_Producto, Descripcion ) Values (4,'CSD'S');
+Insert Into punto_de_venta.Tipo_Producto ( ID_Tipo_Producto, Descripcion ) Values (5,'JUGOS Y NÉCTARES');
+Insert Into punto_de_venta.Tipo_Producto ( ID_Tipo_Producto, Descripcion ) Values (6,'LÁCTEOS');
+Insert Into punto_de_venta.Tipo_Producto ( ID_Tipo_Producto, Descripcion ) Values (7,'OTROS NCB´S');
+Insert Into punto_de_venta.Tipo_Producto ( ID_Tipo_Producto, Descripcion ) Values (8,'PROMO');
+Insert Into punto_de_venta.Tipo_Producto ( ID_Tipo_Producto, Descripcion ) Values (98,'LIQUIDACION');
+Insert Into punto_de_venta.Tipo_Producto ( ID_Tipo_Producto, Descripcion ) Values (99,'ACTIVOS');
 
 
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'100029','FANTA 500ML VIDRIO 24PK BU - (100029)',1,4);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'100030','SIDRAL 500ML VIDRIO 24PK BU - (100030)',1,4);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'100032','VALLE FRUT CITRICO 500ML VR 24PK BU - (100032)',1,5);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'100040','DELAWARE PUNCH 2L NR PET 4PK - (100040)',1,5);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'100056','FRESCA 500ML VIDRIO24PK BU - (100056)',1,4);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'99939','SIDRAL MUNDET 2.5LT PET 8PK - (99939)',1,4);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'99940','FRESCA 2.5LT PET RET 8PK - (99940)',1,4);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'99941','VALLE FRUT CÍTRICO 2.5LT PET RET 8PK - (99941)',1,5);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'99983','MUNDET CIRUELA 2LT NR 4PK (99983)',1,4);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'99992','PREDATOR 473ML 6PK - (99992)',1,7);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'CB011022','COMBO COCA COLA 2 PACK 2.5 LT Y 2 PACK 1 1/4 LT',1,8);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'CB011022-2','COMBO SABORES 2.5 1 PACK FANTA NARANJA,FRESCA,SIDRAL,VALLE FRUT',1,8);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'CB210622','4-4PK COCA 2.75LT+2-24PK COCA 60ML - CB210622',1,8);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'CB210822','FIESTAS PATRIAS 600',2,8);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'CB220622','20 GR AGUA 20 LT + 1 24PK COCA 600 - CB220622',2,8);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'CB230922','COMBO COCA Y SABORES + VALLE FRUT 3LTS',2,8);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'CB230922-2','COCA COLA 3L 5 8`S y 1 4 Gratis',2,8);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'P445','COCA COLA 3LT PET NR 4PK -(P445)',2,8);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'P450','FRESCA 3LT PET NR 4PK - (P450)',2,8);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'P526','FANTA FRESA 3LT PET NR 4PK - (P526)',2,8);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'P691','FANTA 3LT PET NR 4PK - (P526)',2,8);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'P97152','VALLE FRUT PONCHE CITRICO 2L PET NR 8PK - (P97152)',1,8);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'P97153','VALLE FRUT PONCHE CITRICO 3LT PET NR 4PK - (P97153)',1,8);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'PJ84133','CIEL NATURAL 20LT (GARRAFON)- (PJ84133)',1,1);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'CB080522','4 4PK COCA 2.75 PT+2 12PK COC 500 PT+ 1 12PK CIEL 600 PT -(CB080522)',1,8);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'CB080722','5-4PK COCA 3LT - (CB080722)',2,8);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'CB090622','4-4PK COCA 3LT PT+2-4PK COCA 2.75 PT+1-12PK AGUA 600',1,8);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'CB090922','COMBO 1.35 - 1.25 + AGUA 1LT GRATIS',2,8);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'CB140922','COMBO AGUA 10 DE 1.5 LTS (84100) , 6 DE REGALO AGUA 600 (84091)',2,8);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'CB200622','4-4PK COCA 3LT+2-12PK COCA 1.35LT PET- CB200622',1,8);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'CB200822','COMBO AGUA AGOSTO MIX',1,8);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'CB060722','4-4PK COCA 2.75LT2-4PK FRESCA 3LT2-4PK SIDRALN MZN 3LT2-4PK SPRITE 3LT 2-4PK FANTA N 3LT2-4PK FAN FR',1,8);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'CB06082022','COCA 3L 4-4PK+FRESCA 3LT 2-4PK+SPRITE 3L 2-4PK+FANTA NR 3L 2-4PK+SIDRAL 3L 2-4PK',1,8);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'CB070722','2-12PK COCA 1.35+2-12PK COCA 1.7+2-4PK COCA 3LT+12PK AGUA CIEL 600 - (CB070722)',1,8);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'CB445','6-4PK COCA COLA 3LT PET NR - (CB445)',2,8);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'99346','ADES FRUT MANGO 200ML 4PK - (99346)',1,3);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'99362','ADES SOYA FRUTAL DURAZNO 200ML 4PK - (99362)',2,3);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'99365','ADES MANZANA 946ML 3PK - (99365)',1,3);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'99366','ADES FRUT MANGO 946ML 3PK - (99366)',1,3);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'84213','CIEL 5LT BIDON PET NR 4PK - (84213)',1,1);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'84214','CIEL 10LT PET NR 1PK - (84214)',1,3);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'84215','CIEL 2L NATURAL NR 8PK - (84215)',2,1);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'84217','CIEL 355ML PET NR 12PK - (84217)',1,3);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'84290','TOPO CHICO 600ML NR 12PK - (84290)',1,1);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'84291','TOPO CHICO MINERAL BOT 1.5LT NR 6PK',1,1);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'84488','CIEL EXPRIM LIMON 1L 6PK - (84488)',1,1);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'84579','CIEL EXPRIM 1LT PET 6PK - (84579)',1,1);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'84637','EXPRIM 1 LT NR',1,1);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'84649','CIEL MINERAL 355ML 12PK LATA LEAN - (84649)',1,2);
+Insert Into punto_de_venta.Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (,'84684','TOPO CHICO 355ML VR 24PK - (84684)',1,1);
+
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creación ,ID_Tipocuenta ) VALUES (1000046,'MATILDE ','GASCA MACIAS','PASEO DE LAVJUVENTUD 706 ','XAXX010101000',20220510,1);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creación ,ID_Tipocuenta ) VALUES (1000098,'JORGE ','NOVOA ROSAS','MIGUEL HIDALGO 117 CENTRO, CORTAZAR, GUANAJUATO','XAXX010101000',20220511,2);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creación ,ID_Tipocuenta ) VALUES (1000105,'BASILIO ','CANO VEGA','VICENTE GUERRERO 501-A CENTRO, CORTAZAR','XAXX010101000',20220512,1);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creación ,ID_Tipocuenta ) VALUES (1000171,'SALVADOR','CANO VEGA','BLVD. LUIS DONALDO COLOSIO 129 .','XAXX010101000',20220513,2);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creación ,ID_Tipocuenta ) VALUES (1000203,'MARTHA',' ALEJOS VAZQUEZ','FELIPE ANGELES','XAXX010101000',20220514,1);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creación ,ID_Tipocuenta ) VALUES (1000262,'CRISTOBAL ','MORENO VAZQUEZ','MARGARITA 42 EL CHINACO, EL CHINACO','XAXX010101000',20220515,2);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creación ,ID_Tipocuenta ) VALUES (1000341,'CAJA POPULAR CORTAZAR SC DE AP DE RL DE CV','SIN APELLIDO','IGNACIO RAMIREZ 106 CENTRO, CORTAZAR, GUANAJUATO','XAXX010101000',20220516,1);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creación ,ID_Tipocuenta ) VALUES (1000355,'MA EUGENIA ','CASTRO','AV. ENRIQUE COLUNGA','XAXX010101000',20220517,2);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creación ,ID_Tipocuenta ) VALUES (1000425,'MAURICIO ','FERREL GONZALEZ','CALLE ZARAGOZA #402 A','XAXX010101000',20220518,1);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creación ,ID_Tipocuenta ) VALUES (1000468,'AURORA ','SIERRA LEON','CALLE DOMINGO ARRIETA SN . S/N','XAXX010101000',20220519,2);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creación ,ID_Tipocuenta ) VALUES (1000691,'REYES ','VENEGAS MERCADO','BENITO JUAREZ OTE. 212','XAXX010101000',20220520,1);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creación ,ID_Tipocuenta ) VALUES (1000841,'ROSA MA. ','BUENO GARCIA','CIRCUITO FLORENCIA 236-A','XAXX010101000',20220521,2);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creación ,ID_Tipocuenta ) VALUES (1000844,'LUCRECIA ','CRUZ BAUTISTA','GILDARDO MAGAÑA 42 EMILIANO ZAPATA, VILLAGRAN, GTO','XAXX010101000',20220522,1);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creación ,ID_Tipocuenta ) VALUES (1000881,'OFELIA ','BANDA ROJAS','VERACRUZ 501, CENTRO CORTAZAR','XAXX010101000',20220523,2);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creación ,ID_Tipocuenta ) VALUES (1001039,'DAVID ','GONZALEZ MACIAS','VILLA MONZA 125','XAXX010101000',20220524,1);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creación ,ID_Tipocuenta ) VALUES (1001045,'SERGIO ','GALLEGOS PARRAS','CORREGIDORA 1001-A','XAXX010101000',20220525,2);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creación ,ID_Tipocuenta ) VALUES (1001066,'MARISCOS 3 DELFINES','SIN APELLIDO','MATAMOROS 327','XAXX010101000',20220526,1);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creación ,ID_Tipocuenta ) VALUES (1001118,'TACOSTUMBRAS','SIN APELLIDO','RAYON 706','XAXX010101000',20220527,2);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creación ,ID_Tipocuenta ) VALUES (1001199,'ELVIA ','GASCA BARAJAS','JOSE MARIA MORELOS PTE 617 CENTRO, VILLAGRAN','XAXX010101000',20220528,2);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creación ,ID_Tipocuenta ) VALUES (1001202,'DR HECTOR A ','ROBLEDO RUIZ','ALDAMA 305','XAXX010101000',20220529,2);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creación ,ID_Tipocuenta ) VALUES (1001214,'VICTOR MANUEL','PALACIOS ZAMUDIO','SENDERO DEL TIGRE 100','XAXX010101000',20220530,1);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creación ,ID_Tipocuenta ) VALUES (1001476,'RESTAURANT TORTA ZAR','SIN APELLIDO','AVENIDA PORTAL CONSTITUCIÓN 118','XAXX010101000',20220531,2);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creación ,ID_Tipocuenta ) VALUES (1001552,'DISTRIBUIDORA VILLAGRAN EFC','SIN APELLIDO','CALLE CUAUHTEMOC 407','XAXX010101000',20220601,1);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creación ,ID_Tipocuenta ) VALUES (1001553,'MARIA TERESA',' GONZALEZ VAZQUEZ','ANDADOR PRIV GUADALUPE 1006','XAXX010101000',20220602,2);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creación ,ID_Tipocuenta ) VALUES (1001758,'MINI SUPER LA HACIENDA','SIN APELLIDO','CALLE MIGUEL HIDALGO 55','XAXX010101000',20220603,1);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creación ,ID_Tipocuenta ) VALUES (1001836,'ELIZABETH','OLIVARES MARTINEZ','CALLE HERMOSA 67','XAXX010101000',20220604,2);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creación ,ID_Tipocuenta ) VALUES (1002270,'ABARROTES EL VALHALLA','SIN APELLIDO','EMILIANO ZAPATA','XAXX010101000',20220605,1);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creación ,ID_Tipocuenta ) VALUES (1002313,'JULIO CESAR ','LERMA ROJAS','C. PIPILA # 509','XAXX010101000',20220606,2);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creación ,ID_Tipocuenta ) VALUES (1002315,'J GUADALUPE ','MELGAR NITO','C OLMO 405','XAXX010101000',20220607,1);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creación ,ID_Tipocuenta ) VALUES (1002332,'MA ESTELA','GONZALEZ ARANDA','CARRETERA CORTAZAR LA ESTACIÓN KM 1.5','XAXX010101000',20220608,2);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creación ,ID_Tipocuenta ) VALUES (1002358,'COMEDOR FERROMEX','SIN APELLIDO','CARRETERA LATERAL CELAYA VILLAGRAN KM 12.5','XAXX010101000',20220609,1);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creación ,ID_Tipocuenta ) VALUES (1002359,'COMEDOR FERROMEX','SIN APELLIDO','CARRETERA LATERAL CELAYA VILLAGRAN KM 12','XAXX010101000',20220610,2);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creación ,ID_Tipocuenta ) VALUES (1002379,'PERLA IVONNE ','ARRIAGA VILLANUEVA','ZARAGOZA #118','XAXX010101000',20220611,1);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creación ,ID_Tipocuenta ) VALUES (1002396,'LOS HIJOS DE LAS PEPAS','SIN APELLIDO','HIDALGO # 100','XAXX010101000',20220612,2);
+Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creación ,ID_Tipocuenta ) VALUES (1002438,'DISTRIBUIDORA VILLAGRAN TRNS','SIN APELLIDO','CALLE CUAUHTEMOC #407','XAXX010101000',20220613,2);
+
+Insert Into punto_de_venta.Proveedores (ID_Proveedor  , Reazon_Social , Direccion, RFC) Values (1,'FAMASA','MIGUEL HIDALGO 117 CENTRO, CORTAZAR, GUANAJUATO','XAXX010101000'); 
+Insert Into punto_de_venta.Proveedores (ID_Proveedor  , Reazon_Social , Direccion, RFC) Values (2,'PEPSICO','VICENTE GUERRERO 501-A CENTRO, CORTAZAR','XAXX010101000'); 
 
 
-Insert Into Tipo_Producto ( ID_Tipo_Producto, Descripcion ) Values (1,'AGUA'),
-Insert Into Tipo_Producto ( ID_Tipo_Producto, Descripcion ) Values (2,'ALCOHOLIC RTD'),
-Insert Into Tipo_Producto ( ID_Tipo_Producto, Descripcion ) Values (3,'BEBIDAS VEGETALES'),
-Insert Into Tipo_Producto ( ID_Tipo_Producto, Descripcion ) Values (4,'CSD'S'),
-Insert Into Tipo_Producto ( ID_Tipo_Producto, Descripcion ) Values (5,'JUGOS Y NÉCTARES'),
-Insert Into Tipo_Producto ( ID_Tipo_Producto, Descripcion ) Values (6,'LÁCTEOS'),
-Insert Into Tipo_Producto ( ID_Tipo_Producto, Descripcion ) Values (7,'OTROS NCB´S'),
-Insert Into Tipo_Producto ( ID_Tipo_Producto, Descripcion ) Values (8,'PROMO'),
-Insert Into Tipo_Producto ( ID_Tipo_Producto, Descripcion ) Values (98,'LIQUIDACION'),
-Insert Into Tipo_Producto ( ID_Tipo_Producto, Descripcion ) Values (99,'ACTIVOS'),
+Insert Into punto_de_venta.Depositos ( ID_Deposito , Descripcion ) values (97,'Merma');
+Insert Into punto_de_venta.Depositos ( ID_Deposito , Descripcion ) values (98,'Dañados');
+Insert Into punto_de_venta.Depositos ( ID_Deposito , Descripcion ) values (99,'Central');
+
+Insert Into punto_de_venta.Tipo_Cuenta ( ID_Tipocuenta, Descripcion ) VALUES (1,'MENUDEO');
+Insert Into punto_de_venta.Tipo_Cuenta ( ID_Tipocuenta, Descripcion ) VALUES (2,'MAYOREO'),
+
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (1,'Victor Manuel Guevara Recinos',4,'20220509');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (2,'FRANCISCO AREVALO GARCIA',5,'20220510');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (3,'Nelson Alexander Peña Zometa',5,'20220509');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (4,'KEVIN ALEXANDER HERNANDEZ HERNANDEZ',4,'20220510');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (5,'LUIS ALONSO NUAEZ AVILA',6,'20220508');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (6,'Erick Alfredo Mezquita García.',4,'20220509');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (7,'WILLIAM ISRAEL FLORES CHAVEZ',5,'20220510');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (8,'DIEGO ARNOLDO REGALADO CRUZ',5,'20220509');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (9,'DANIEL ISAAC ROSALES ALARCON',4,'20220510');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (10,'SALVADOR ALFONSO PORTILLO SAAVEDRA',6,'20220508');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (11,'SALVADOR ERNESTO LUCHA MENDEZ',4,'20220509');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (12,'YUBINI ALEXANDER QUINTANILLA ORANTES',5,'20220510');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (13,'SALVADOR ANTONIO ALFARO PEÑATE',5,'20220509');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (14,'WILBER IVAN BATRES CASTRO',4,'20220510');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (15,'JOSE MANUEL TORRES PALACIOS',6,'20220508');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (16,'EDWIN ALEXANDER CORTEZ GOMEZ',4,'20220509');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (17,'DAVID ANTONIO RAMIREZ OCHOA',5,'20220510');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (18,'SANTIAGO DE JESUS ZALDAÑA ROSA',5,'20220509');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (19,'FERNANDO ANTONIO CORTEZ GOMEZ',7,'20220510');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (20,'JOSE ANTONIO MORAN BAÃ‘OS',6,'20220508');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (21,'JOSE ISRAEL AQUINO BARAHONA',4,'20220509');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (22,'JUAN CARLOS GONZALEZ SALDAÃ‘A',5,'20220510');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (23,'ROGER EDMUNDO ALVAREZ PORTILLO',5,'20220509');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (24,'NEHEMIAS ADOLFO MANCIA ROSALES',4,'20220510');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (25,'Jorge Antonio Acuña Hernández.',6,'20220508');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (26,'DARIO ADIEL MARTINEZ ECHEVERRIA',4,'20220509');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (27,'JAVIER SANTIAGO RODRIGUEZ QUINTANILLA',5,'20220510');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (28,'NATANAEL ELIAS SANCHEZ CARRANZA',5,'20220509');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (29,'CRISTIAN ALEXANDER MARTINEZ CHAFOYA',4,'20220510');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (30,'WILFREDO MUÑOZ FLORES',6,'20220508');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (31,'JOSE RAUL LOPEZ PEÑATE',4,'20220509');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (32,'VICTOR MANUEL MORENO BENITEZ',5,'20220510');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (33,'LUIS ALFREDO MALDINERO ALDANA',5,'20220509');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (34,'VICENTE HUMBERTO MEDINA AVILA',4,'20220510');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (35,'BRYAN WILFREDO GARCIA RUEDAS',6,'20220508');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (36,'IRVIN MAURICIO GARCIA CARRANZA',4,'20220509');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (37,'WALTER ANTONIO ARGUETA CARPIO',5,'20220510');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (38,'ALEJANDRO ALFREDO GARCIA REPREZA',7,'20220509');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (39,'Cardona Lima Jonathan Ernesto',4,'20220510');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (40,'BYRON ROMEO ARANA MERLOS',6,'20220508');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (41,'JACINTO ALFREDO FLORES DUARTE',4,'20220509');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (42,'EVER ALEXANDER CHICAS MORENO',5,'20220510');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (43,'DANIEL HUMBERTO CARDONA MARTINEZ',5,'20220509');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (44,'JOSE DAVID GOMEZ GARCIA',4,'20220510');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (45,'MELVIN MANUEL MARTINEZ RIVAS',6,'20220508');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (46,'CALLEJAS SANTA ANA',4,'20220509');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (47,'VENDEDOR DEGUSTACION',5,'20220510');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (48,'VENTA DE FABRICA SANTA ANA',5,'20220509');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (49,'PROMOVENDEDORA SANTA ANA',4,'20220510');
+insert into punto_de_venta.Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (50,'RICARDO ALONSO CUELLAR CRISTALES',6,'20220508');
 
 
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (100029,'FANTA 500ML VIDRIO 24PK BU - (100029)',1,4),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (100030,'SIDRAL 500ML VIDRIO 24PK BU - (100030)',1,4),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (100032,'VALLE FRUT CITRICO 500ML VR 24PK BU - (100032)',1,5),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (100040,'DELAWARE PUNCH 2L NR PET 4PK - (100040)',1,5),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (100056,'FRESCA 500ML VIDRIO24PK BU - (100056)',1,4),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (99939,'SIDRAL MUNDET 2.5LT PET 8PK - (99939)',1,4),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (99940,'FRESCA 2.5LT PET RET 8PK - (99940)',1,4),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (99941,'VALLE FRUT CÍTRICO 2.5LT PET RET 8PK - (99941)',1,5),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (99983,'MUNDET CIRUELA 2LT NR 4PK (99983)',1,4),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (99992,'PREDATOR 473ML 6PK - (99992)',1,7),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (CB011022,'COMBO COCA COLA 2 PACK 2.5 LT Y 2 PACK 1 1/4 LT',1,8),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (CB011022-2,'COMBO SABORES 2.5 1 PACK FANTA NARANJA,FRESCA,SIDRAL,VALLE FRUT',1,8),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (CB210622,'4-4PK COCA 2.75LT+2-24PK COCA 60ML - CB210622',1,8),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (CB210822,'FIESTAS PATRIAS 600',2,8),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (CB220622,'20 GR AGUA 20 LT + 1 24PK COCA 600 - CB220622',2,8),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (CB230922,'COMBO COCA Y SABORES + VALLE FRUT 3LTS',2,8),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (CB230922-2,'COCA COLA 3L 5 8`S y 1 4 Gratis',2,8),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (P445,'COCA COLA 3LT PET NR 4PK -(P445)',2,8),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (P450,'FRESCA 3LT PET NR 4PK - (P450)',2,8),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (P526,'FANTA FRESA 3LT PET NR 4PK - (P526)',2,8),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (P691,'FANTA 3LT PET NR 4PK - (P526)',2,8),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (P97152,'VALLE FRUT PONCHE CITRICO 2L PET NR 8PK - (P97152)',1,8),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (P97153,'VALLE FRUT PONCHE CITRICO 3LT PET NR 4PK - (P97153)',1,8),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (PJ84133,'CIEL NATURAL 20LT (GARRAFON)- (PJ84133)',1,1),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (CB080522,'4 4PK COCA 2.75 PT+2 12PK COC 500 PT+ 1 12PK CIEL 600 PT -(CB080522)',1,8),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (CB080722,'5-4PK COCA 3LT - (CB080722)',2,8),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (CB090622,'4-4PK COCA 3LT PT+2-4PK COCA 2.75 PT+1-12PK AGUA 600',1,8),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (CB090922,'COMBO 1.35 - 1.25 + AGUA 1LT GRATIS',2,8),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (CB140922,'COMBO AGUA 10 DE 1.5 LTS (84100) , 6 DE REGALO AGUA 600 (84091)',2,8),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (CB200622,'4-4PK COCA 3LT+2-12PK COCA 1.35LT PET- CB200622',1,8),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (CB200822,'COMBO AGUA AGOSTO MIX',1,8),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (CB060722,'4-4PK COCA 2.75LT2-4PK FRESCA 3LT2-4PK SIDRALN MZN 3LT2-4PK SPRITE 3LT 2-4PK FANTA N 3LT2-4PK FAN FR',1,8),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (CB06082022,'COCA 3L 4-4PK+FRESCA 3LT 2-4PK+SPRITE 3L 2-4PK+FANTA NR 3L 2-4PK+SIDRAL 3L 2-4PK',1,8),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (CB070722,'2-12PK COCA 1.35+2-12PK COCA 1.7+2-4PK COCA 3LT+12PK AGUA CIEL 600 - (CB070722)',1,8),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (CB445,'6-4PK COCA COLA 3LT PET NR - (CB445)',2,8),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (99346,'ADES FRUT MANGO 200ML 4PK - (99346)',1,3),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (99362,'ADES SOYA FRUTAL DURAZNO 200ML 4PK - (99362)',2,3),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (99365,'ADES MANZANA 946ML 3PK - (99365)',1,3),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (99366,'ADES FRUT MANGO 946ML 3PK - (99366)',1,3),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (84213,'CIEL 5LT BIDON PET NR 4PK - (84213)',1,1),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (84214,'CIEL 10LT PET NR 1PK - (84214)',1,3),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (84215,'CIEL 2L NATURAL NR 8PK - (84215)',2,1),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (84217,'CIEL 355ML PET NR 12PK - (84217)',1,3),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (84290,'TOPO CHICO 600ML NR 12PK - (84290)',1,1),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (84291,'TOPO CHICO MINERAL BOT 1.5LT NR 6PK',1,1),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (84488,'CIEL EXPRIM LIMON 1L 6PK - (84488)',1,1),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (84579,'CIEL EXPRIM 1LT PET 6PK - (84579)',1,1),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (84637,'EXPRIM 1 LT NR',1,1),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (84649,'CIEL MINERAL 355ML 12PK LATA LEAN - (84649)',1,2),
-Insert Into Articulos (ID_Articulo , Descripcion, ID_Proveedor ,  ID_Tipo_Producto   ) Values (84684,'TOPO CHICO 355ML VR 24PK - (84684)',1,1),
-
-
-Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1000046,'MATILDE ','GASCA MACIAS','PASEO DE LAVJUVENTUD 706 ','XAXX010101000',2022-05-10,1);
-Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1000098,'JORGE ','NOVOA ROSAS','MIGUEL HIDALGO 117 CENTRO, CORTAZAR, GUANAJUATO','XAXX010101000',2022-05-11,2);
-Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1000105,'BASILIO ','CANO VEGA','VICENTE GUERRERO 501-A CENTRO, CORTAZAR','XAXX010101000',2022-05-12,1);
-Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1000171,'SALVADOR','CANO VEGA','BLVD. LUIS DONALDO COLOSIO 129 .','XAXX010101000',2022-05-13,2);
-Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1000203,'MARTHA',' ALEJOS VAZQUEZ','FELIPE ANGELES','XAXX010101000',2022-05-14,1);
-Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1000262,'CRISTOBAL ','MORENO VAZQUEZ','MARGARITA 42 EL CHINACO, EL CHINACO','XAXX010101000',2022-05-15,2);
-Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1000341,'CAJA POPULAR CORTAZAR SC DE AP DE RL DE CV','SIN APELLIDO','IGNACIO RAMIREZ 106 CENTRO, CORTAZAR, GUANAJUATO','XAXX010101000',2022-05-16,1);
-Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1000355,'MA EUGENIA ','CASTRO','AV. ENRIQUE COLUNGA','XAXX010101000',2022-05-17,2);
-Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1000425,'MAURICIO ','FERREL GONZALEZ','CALLE ZARAGOZA #402 A','XAXX010101000',2022-05-18,1);
-Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1000468,'AURORA ','SIERRA LEON','CALLE DOMINGO ARRIETA SN . S/N','XAXX010101000',2022-05-19,2);
-Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1000691,'REYES ','VENEGAS MERCADO','BENITO JUAREZ OTE. 212','XAXX010101000',2022-05-20,1);
-Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1000841,'ROSA MA. ','BUENO GARCIA','CIRCUITO FLORENCIA 236-A','XAXX010101000',2022-05-21,2);
-Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1000844,'LUCRECIA ','CRUZ BAUTISTA','GILDARDO MAGAÑA 42 EMILIANO ZAPATA, VILLAGRAN, GTO','XAXX010101000',2022-05-22,1);
-Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1000881,'OFELIA ','BANDA ROJAS','VERACRUZ 501, CENTRO CORTAZAR','XAXX010101000',2022-05-23,2);
-Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1001039,'DAVID ','GONZALEZ MACIAS','VILLA MONZA 125','XAXX010101000',2022-05-24,1);
-Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1001045,'SERGIO ','GALLEGOS PARRAS','CORREGIDORA 1001-A','XAXX010101000',2022-05-25,2);
-Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1001066,'MARISCOS 3 DELFINES','SIN APELLIDO','MATAMOROS 327','XAXX010101000',2022-05-26,1);
-Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1001118,'TACOSTUMBRAS','SIN APELLIDO','RAYON 706','XAXX010101000',2022-05-27,2);
-Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1001199,'ELVIA ','GASCA BARAJAS','JOSE MARIA MORELOS PTE 617 CENTRO, VILLAGRAN','XAXX010101000',2022-05-28,2);
-Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1001202,'DR HECTOR A ','ROBLEDO RUIZ','ALDAMA 305','XAXX010101000',2022-05-29,2);
-Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1001214,'VICTOR MANUEL','PALACIOS ZAMUDIO','SENDERO DEL TIGRE 100','XAXX010101000',2022-05-30,1);
-Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1001476,'RESTAURANT TORTA ZAR','SIN APELLIDO','AVENIDA PORTAL CONSTITUCIÓN 118','XAXX010101000',2022-05-31,2);
-Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1001552,'DISTRIBUIDORA VILLAGRAN EFC','SIN APELLIDO','CALLE CUAUHTEMOC 407','XAXX010101000',2022-06-01,1);
-Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1001553,'MARIA TERESA',' GONZALEZ VAZQUEZ','ANDADOR PRIV GUADALUPE 1006','XAXX010101000',2022-06-02,2);
-Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1001758,'MINI SUPER LA HACIENDA','SIN APELLIDO','CALLE MIGUEL HIDALGO 55','XAXX010101000',2022-06-03,1);
-Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1001836,'ELIZABETH','OLIVARES MARTINEZ','CALLE HERMOSA 67','XAXX010101000',2022-06-04,2);
-Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1002270,'ABARROTES EL VALHALLA','SIN APELLIDO','EMILIANO ZAPATA','XAXX010101000',2022-06-05,1);
-Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1002313,'JULIO CESAR ','LERMA ROJAS','C. PIPILA # 509','XAXX010101000',2022-06-06,2);
-Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1002315,'J GUADALUPE ','MELGAR NITO','C OLMO 405','XAXX010101000',2022-06-07,1);
-Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1002332,'MA ESTELA','GONZALEZ ARANDA','CARRETERA CORTAZAR LA ESTACIÓN KM 1.5','XAXX010101000',2022-06-08,2);
-Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1002358,'COMEDOR FERROMEX','SIN APELLIDO','CARRETERA LATERAL CELAYA VILLAGRAN KM 12.5','XAXX010101000',2022-06-09,1);
-Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1002359,'COMEDOR FERROMEX','SIN APELLIDO','CARRETERA LATERAL CELAYA VILLAGRAN KM 12','XAXX010101000',2022-06-10,2);
-Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1002379,'PERLA IVONNE ','ARRIAGA VILLANUEVA','ZARAGOZA #118','XAXX010101000',2022-06-11,1);
-Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1002396,'LOS HIJOS DE LAS PEPAS','SIN APELLIDO','HIDALGO # 100','XAXX010101000',2022-06-12,2);
-Insert Into punto_de_venta.CLIENTES ( ID_Cliente ,  Nombre , Apellido ,Dirección ,RFC ,Fecha_creacion ,ID_Tipocuenta ) VALUES (1002438,'DISTRIBUIDORA VILLAGRAN TRNS','SIN APELLIDO','CALLE CUAUHTEMOC #407','XAXX010101000',2022-06-13,2);
-
-
-Insert Into Tipo_Cuenta ( ID_Tipocuenta, Descripcion ) VALUES (1,'MENUDEO'),
-Insert Into Tipo_Cuenta ( ID_Tipocuenta, Descripcion ) VALUES (2,'MAYOREO'),
-
-
-
-Insert Into Proveedores (ID_Proveedor  , Reazon_Social , Direccion, RFC) Values (1,'FEMSA','MIGUEL HIDALGO 117 CENTRO, CORTAZAR, GUANAJUATO','XAXX010101000'),
-Insert Into Proveedores (ID_Proveedor  , Reazon_Social , Direccion, RFC) Values (2,'PEPSICO','VICENTE GUERRERO 501-A CENTRO, CORTAZAR','XAXX010101000'),
-
-
-Insert Into Depositos ( ID_Deposito , Descripcion ) values (97,'Merma'),
-Insert Into Depositos ( ID_Deposito , Descripcion ) values (98,'Dañados'),
-Insert Into Depositos ( ID_Deposito , Descripcion ) values (99,'Central'),
-
-
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (1,'Victor Manuel Guevara Recinos',4,'09-05-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (2,'FRANCISCO AREVALO GARCIA',5,'10-05-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (3,'Nelson Alexander Peña Zometa',5,'09-05-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (4,'KEVIN ALEXANDER HERNANDEZ HERNANDEZ',4,'10-05-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (5,'LUIS ALONSO NUAEZ AVILA',6,'08-05-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (6,'Erick Alfredo Mezquita García.',4,'21-06-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (7,'WILLIAM ISRAEL FLORES CHAVEZ',5,'09-05-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (8,'DIEGO ARNOLDO REGALADO CRUZ',5,'10-05-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (9,'DANIEL ISAAC ROSALES ALARCON',4,'09-05-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (10,'SALVADOR ALFONSO PORTILLO SAAVEDRA',6,'10-05-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (11,'SALVADOR ERNESTO LUCHA MENDEZ',4,'08-05-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (12,'YUBINI ALEXANDER QUINTANILLA ORANTES',5,'21-06-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (13,'SALVADOR ANTONIO ALFARO PEÑATE',5,'09-05-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (14,'WILBER IVAN BATRES CASTRO',4,'10-05-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (15,'JOSE MANUEL TORRES PALACIOS',6,'09-05-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (16,'EDWIN ALEXANDER CORTEZ GOMEZ',4,'10-05-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (17,'DAVID ANTONIO RAMIREZ OCHOA',5,'08-05-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (18,'SANTIAGO DE JESUS ZALDAÑA ROSA',5,'21-06-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (19,'FERNANDO ANTONIO CORTEZ GOMEZ',7,'09-05-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (20,'JOSE ANTONIO MORAN BAÃ‘OS',6,'10-05-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (21,'JOSE ISRAEL AQUINO BARAHONA',4,'09-05-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (22,'JUAN CARLOS GONZALEZ SALDAÃ‘A',5,'10-05-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (23,'ROGER EDMUNDO ALVAREZ PORTILLO',5,'08-05-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (24,'NEHEMIAS ADOLFO MANCIA ROSALES',4,'21-06-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (25,'Jorge Antonio Acuña Hernández.',6,'09-05-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (26,'DARIO ADIEL MARTINEZ ECHEVERRIA',4,'10-05-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (27,'JAVIER SANTIAGO RODRIGUEZ QUINTANILLA',5,'09-05-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (28,'NATANAEL ELIAS SANCHEZ CARRANZA',5,'10-05-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (29,'CRISTIAN ALEXANDER MARTINEZ CHAFOYA',4,'08-05-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (30,'WILFREDO MUÑOZ FLORES',6,'21-06-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (31,'JOSE RAUL LOPEZ PEÑATE',4,'09-05-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (32,'VICTOR MANUEL MORENO BENITEZ',5,'10-05-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (33,'LUIS ALFREDO MALDINERO ALDANA',5,'09-05-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (34,'VICENTE HUMBERTO MEDINA AVILA',4,'10-05-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (35,'BRYAN WILFREDO GARCIA RUEDAS',6,'08-05-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (36,'IRVIN MAURICIO GARCIA CARRANZA',4,'21-06-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (37,'WALTER ANTONIO ARGUETA CARPIO',5,'09-05-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (38,'ALEJANDRO ALFREDO GARCIA REPREZA',7,'10-05-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (39,'Cardona Lima Jonathan Ernesto',4,'09-05-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (40,'BYRON ROMEO ARANA MERLOS',6,'10-05-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (41,'JACINTO ALFREDO FLORES DUARTE',4,'08-05-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (42,'EVER ALEXANDER CHICAS MORENO',5,'21-06-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (43,'DANIEL HUMBERTO CARDONA MARTINEZ',5,'09-05-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (44,'JOSE DAVID GOMEZ GARCIA',4,'10-05-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (45,'MELVIN MANUEL MARTINEZ RIVAS',6,'09-05-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (46,'CALLEJAS SANTA ANA',4,'10-05-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (47,'VENDEDOR DEGUSTACION',5,'08-05-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (48,'VENTA DE FABRICA SANTA ANA',5,'21-06-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (49,'PROMOVENDEDORA SANTA ANA',4,'09-05-2022'),
-insert into Empleados (  ID_Empleado , Nombre , ID_Puesto, Fecha_ingreso) values (50,'RICARDO ALONSO CUELLAR CRISTALES',6,'10-05-2022'),
-
-
-insert into Puesto ( ID_Puesto,  Descripcion ) values (4,'Vendedor Oficina'),
-insert into Puesto ( ID_Puesto,  Descripcion ) values (5,'Vendedor Ruta'),
-insert into Puesto ( ID_Puesto,  Descripcion ) values (6,'Supervisor'),
-insert into Puesto ( ID_Puesto,  Descripcion ) values (7,'Gerente'),
+insert into punto_de_venta.Puesto ( ID_Puesto,  Descripcion ) values (4,'Vendedor Oficina');
+insert into punto_de_venta.Puesto ( ID_Puesto,  Descripcion ) values (5,'Vendedor Ruta');
+insert into punto_de_venta.Puesto ( ID_Puesto,  Descripcion ) values (6,'Supervisor');
+insert into punto_de_venta.Puesto ( ID_Puesto,  Descripcion ) values (7,'Gerente');
