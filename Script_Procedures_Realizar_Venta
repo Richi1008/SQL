@@ -1,0 +1,63 @@
+DELIMITER $$
+CREATE PROCEDURE Realizar_Venta (in v_Cliente int, in v_Empleado int, in v_Deposito int, in v_Articulos varchar(30), in v_Precio numeric(12,4), in v_Cantidad int, in v_Fecha date)
+BEGIN
+
+
+DECLARE  Cliente_existe, Articulo_existe, Deposito_Existe, Empleado_existe, ID_Movimiento_stock int;
+
+START TRANSACTION;
+ -- Seteo en cero por si nos existe algunos de los argumentos a buscar 
+SET Cliente_existe = 0;
+SET Articulo_existe = 0;
+SET Deposito_Existe = 0;
+SET Empleado_existe = 0;
+
+-- Cambio el valor si es que existen 
+
+SET Cliente_existe = (SELECT EXISTS(SELECT 1 FROM punto_de_venta.clientes WHERE ID_Cliente = v_Cliente ));
+SET Articulo_existe = (SELECT EXISTS(SELECT 1 FROM punto_de_venta.articulos WHERE ID_Articulo = v_Articulos ));
+SET Deposito_Existe = (SELECT EXISTS(SELECT 1 FROM punto_de_venta.depositos WHERE ID_Deposito = v_Deposito ));
+SET Empleado_existe = (SELECT EXISTS(SELECT 1 FROM punto_de_venta.empleados WHERE ID_Empleado = v_Empleado ));
+
+IF  Cliente_existe  = 1 and Articulo_existe = 1  and Deposito_Existe = 1  and  Empleado_existe = 1  THEN
+  	 IF (SELECT IFNULL (sum(STOCK-v_Cantidad),-1) FROM punto_de_venta.stock_almacen WHERE ID_Articulo=v_Articulos and ID_Deposito=v_Deposito ) >= 0 
+		THEN   
+				Insert into  punto_de_venta.ventas (ID_Cliente, ID_Empleado, ID_Deposito, ID_Articulos, Precio, Cantidad, Fecha_venta)  
+				values (v_Cliente , v_Empleado, v_Deposito, v_Articulos, v_Precio, v_Cantidad, v_Fecha);
+			COMMIT; -- Si el resultado del (stock - v_cantidad) es mayor o igual a cero se hace 'COMMIT'
+		ELSE 
+			ROLLBACK; -- De lo contrario se hara 'ROLLBACK'
+			SELECT CONCAT('Error: ', 'No hay stock suficiente para realizar la venta, realiza una compra a proveedor') AS 'Error';
+	END IF;
+ END IF;
+ 
+ 
+ 
+ START TRANSACTION;
+-- Seteo  en cero (0) nuevamente las variables para hacer el segundo IF y modificar el stock o agregar stock
+
+SET Articulo_existe = 0;
+SET Deposito_Existe = 0;
+SET ID_Movimiento_stock = 0; 
+
+SET Articulo_existe = (SELECT EXISTS(SELECT 1 FROM punto_de_venta.stock_almacen WHERE ID_Articulo = v_Articulos ));
+SET Deposito_Existe = (SELECT EXISTS(SELECT 1 FROM punto_de_venta.stock_almacen WHERE ID_Deposito = v_Deposito ));
+SET ID_Movimiento_stock = (SELECT al.ID_Movimiento FROM punto_de_venta.stock_almacen al WHERE  al.ID_Articulo=v_Articulos AND   al.ID_Deposito=v_Deposito LIMIT 1 );
+
+ 
+ IF Articulo_existe = 1 AND Deposito_Existe = 1   THEN 
+	 IF (SELECT IFNULL (sum(STOCK-v_Cantidad),-1) FROM punto_de_venta.stock_almacen WHERE ID_Articulo=v_Articulos and ID_Deposito=v_Deposito ) >= 0 
+		THEN 
+				UPDATE  punto_de_venta.stock_almacen
+				SET STOCK = STOCK - v_Cantidad
+				WHERE ID_Articulo=v_Articulos AND   ID_Deposito=v_Deposito  AND ID_Movimiento=ID_Movimiento_stock ;
+			COMMIT; -- Si el resultado del (stock - v_cantidad) es mayor o igual a cero se hace 'COMMIT'
+		ELSE 
+			ROLLBACK; -- De lo contrario se hara 'ROLLBACK'
+			SELECT CONCAT('Error: ', 'No hay stock suficiente, realiza una compra a proveedor') AS 'Error';
+	END IF;
+
+ END IF;
+ 
+
+ END $$
