@@ -25,3 +25,21 @@ SELECT
  
  WHERE sa.ID_Deposito=99
  ;
+
+
+create view Ventas_x_Cliente_Vendedor_Articulo as
+SELECT 
+vta.ID_articulos as Codigo_Articulo,
+concat( vta.ID_articulos, '  -  ', ar.descripcion) as Articulo
+,concat( vta.ID_Deposito,'  -  ', de.descripcion) as Deposito
+,concat( vta.ID_empleado,'  -  ', em.nombre) as Empleado
+,vta.Cantidad 
+
+ FROM ventas vta 
+ INNER JOIN articulos ar on ar.ID_articulo=vta.ID_articulos
+ INNER JOIN depositos de on de.ID_Deposito=vta.ID_Deposito
+ INNER JOIN  Empleados em on em.ID_empleado=vta.ID_empleado
+ 
+ group by Codigo_Articulo, Articulo,Deposito,Empleado,Cantidad
+ order by vta.ID_articulos, vta.cantidad
+ ;
