@@ -9,3 +9,19 @@ SELECT
 FROM articulos ar
 INNER JOIN tipo_producto tp on  tp.id_tipo_producto=ar.id_tipo_producto
 WHERE tp.id_tipo_producto=4;
+
+
+
+CREATE VIEW Stock_almacen_Central AS
+ 
+SELECT 
+	 concat( sa.ID_articulo, ' - ', ar.descripcion) as Articulo
+    ,concat( sa.ID_Deposito, ' - ', de.descripcion) as Deposito
+    ,sa.STOCK as Stock_Actual
+
+ FROM stock_almacen sa
+ INNER JOIN articulos ar on ar.ID_articulo=sa.ID_articulo
+ INNER JOIN depositos de on de.ID_Deposito=sa.ID_Deposito
+ 
+ WHERE sa.ID_Deposito=99
+ ;
